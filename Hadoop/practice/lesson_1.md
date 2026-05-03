@@ -1,3 +1,6 @@
+Остановить все контейнеры
+docker stop $(docker ps -a -q)
+
 Зайти в NameNode
 docker exec -it docker-hive-master-namenode-1 /bin/bash
 
