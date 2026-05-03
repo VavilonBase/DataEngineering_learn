@@ -69,4 +69,6 @@ services:
 
 volumes:
   namenode:
-  datanode:
+  datanode1:
+  datanode2:
+  datanode3:
